@@ -1,0 +1,303 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+
+ }
+
+.header{
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 100%) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  display: block;
+  }
+}
+
+@media screen and (max-width: 100%) {
+  .header {
+    display: flex;
+  }
+}
+@media screen and (max-width: 100%) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+  
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+}
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 10000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) { 
+  .text {font-size: 11px}
+ } 
+
+.navbar-nav{
+    text-align: left;
+    margin-left: 66%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #7aadf5;
+   color: white;
+   text-align: center;
+   height: 50px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+
+/*  */
+
+body {
+  background: #ebf1fa;
+}
+.online-service-cards {
+  padding: 20px 20px 10px 20px;
+}
+.page-breadcrumb {
+  background: #ebf1fa;
+  margin-top: 2rem;
+}
+.page-breadcrumb ol.breadcrumb {
+  background: white;
+  padding: 0rem 0rem;
+  margin-bottom: 0px;
+  height: 34px;
+}
+.page-breadcrumb .breadcrumb {
+  display: inline-flex;
+}
+.breadcrumb .breadcrumb-item {
+  padding-top: 9px;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #858585;
+  font-weight: 600;
+}
+.breadcrumb .breadcrumb-item {
+  padding-top: 9px;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.breadcrumb .active {
+  background-color: #175D7B;
+}
+.breadcrumb .active {
+  height: 34px;
+  border-radius: 0px 5px 5px 0px;
+}
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+.breadcrumb li {
+  float: left;
+  width: auto;
+  height: 37px;
+  list-style-type: none;
+  position: relative;
+}
+.breadcrumb-item+.breadcrumb-item.active::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: #6c757d;
+  content: "";
+}
+.breadcrumb-item+.breadcrumb-item.active::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-left: 12px solid white;
+  border-top: 18px solid transparent;
+  border-bottom: 16px solid transparent;
+  width: 0;
+  height: 0;
+  content: " ";
+}
+.breadcrumb .breadcrumb-item.active a {
+  color: white!important;
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 12.5px;
+}
+.breadcrumb li {
+  float: left;
+  width: auto;
+  height: 37px;
+  list-style-type: none;
+  position: relative;
+}
+.page-online-services .online-service-cards .card {
+  height: 70px;
+  margin-bottom: 2em;
+  border-radius: 8px;
+}
+.page-online-services .online-service-cards h5 {
+  padding-top: 2em;
+  padding-left: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #175D7B;
+  text-transform: uppercase;
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #175d7bd4;
+  text-transform: uppercase;
+}
+.os-tile-right-img img {
+  height: 69px;
+  width: 100%;
+  padding-left: 30px;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
+        .capache {
+            margin-right: -79px;
+            padding-left: 8px;
+            padding-right: 31px;
+        }
+   }
+
+   /*  */
+   /* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container2 {
+  border-radius: 10px;
+  background-color: #bac4ff;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+   /*  */

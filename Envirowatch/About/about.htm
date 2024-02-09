@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About us - Envirowatch</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #7aadf5;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.circle{
+  border-radius: 100%;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #7aadf5;
+   color: white;
+   text-align: center;
+   height: 50px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <a style="float: right; margin-top: -40px;"><img src="/ev/img/ev_logo2.png" width="150" height="150"></a>
+  <h1 style="text-align: center; margin-left: 150px;">About Us Page</h1>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="circle" ><img src="img/211420104033-1.jpg" alt="B BAALA" style="width:100%"></div>
+      <div class="container">
+        <h2>B BAALA</h2>
+        <p class="title">CEO & Web Developer</p>
+        <p>baala432003@gmail.com</p>
+        <p><button class="button"><a href="https://www.linkedin.com/in/baalab/" style="text-decoration: none; color: white;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/211420104037-1.jpg" alt="BHARATH" style="width:100%">
+      <div class="container">
+        <h2>BHARATH P</h2>
+        <p class="title"> founder & Project Manager</p>
+        <p>barath.p2002@gmail.com</p>
+        <p><button class="button"><a href="https://www.linkedin.com/in/bharath-pugazhendhi-2b4bb8257/" style="text-decoration: none; color: white;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/211420104156-1.jpg" alt="MARIA ROBIN" style="width:100%">
+      <div class="container">
+        <h2>MARIA ROBIN ANDREW</h2>
+        <p class="title">Co founder & App Developer </p>
+        <p>mariarobin1717@gmail.com</p>
+        <p><button class="button"><a href="https://www.linkedin.com/in/maria-robin-andrew-85b0b9224/" style="text-decoration: none; color: white;">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+  <h5 style="text-align: center; margin-top: 1px; padding: 12px; font-size: 15px;"><b>Copyright © 2024  Developed By Envirowatch.</b></h5>
+ </div>
+
+</body>
+</html>
